@@ -1,0 +1,25 @@
+.app {
+	display: flex;
+	justify-content: center;
+	font-size: 1.8rem;
+	padding: 3rem;
+	overflow-x: hidden;
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.photo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	border-bottom: 1px solid #000;
+	margin-bottom: 2rem;
+}
+
+.photo img {
+	margin-bottom: 1rem;
+}
